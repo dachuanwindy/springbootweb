@@ -96,6 +96,17 @@
             <version>2.3.0</version>
         </dependency>
 
+
+        <!--添加mockTest-->
+        <!-- https://mvnrepository.com/artifact/org.mockito/mockito-all -->
+        <dependency>
+            <groupId>org.mockito</groupId>
+            <artifactId>mockito-all</artifactId>
+            <version>1.10.19</version>
+            <scope>test</scope>
+        </dependency>
+
+
     </dependencies>
 
     <build>
@@ -120,21 +131,21 @@
         </plugins>
     </build>
 
-<!--
-    <profiles>
+    <!--
+        <profiles>
 
-        <profile>
-            <id>dev</id>
+            <profile>
+                <id>dev</id>
 
-        </profile>
-        <profile>
-            <id>pro</id>
+            </profile>
+            <profile>
+                <id>pro</id>
 
-        </profile>
-        <profile>
-            <id>test</id>
+            </profile>
+            <profile>
+                <id>test</id>
 
-        </profile>
-    </profiles>-->
+            </profile>
+        </profiles>-->
 
 </project>

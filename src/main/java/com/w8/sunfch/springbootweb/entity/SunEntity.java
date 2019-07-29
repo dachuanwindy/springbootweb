@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
 
 @Component
 @Data
-@PropertySource(value = "my.properties")
+@PropertySource(value = "classpath:my.properties")
 public class SunEntity {
 
     @Value("${book.sunfch}")
