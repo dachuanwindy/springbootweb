@@ -55,7 +55,6 @@ public class TestApplication {
         mock.clear();
         verify(mock).add(1);
         verify(mock).clear();
-
         log.info("当前测试是：{}", JSON.toJSONString(mock));
 
     }
